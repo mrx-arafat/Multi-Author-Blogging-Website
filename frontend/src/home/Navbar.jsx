@@ -8,11 +8,15 @@ const Navbar = () => {
         <div className="row">
           <div className="col-4">
             <div className="image-menubar">
-              <Link className="image" to="/"></Link>
+              <Link className="image" to="/">
+                <img
+                  src="http://localhost:3000/designImage/Arafat-logo.png"
+                  alt="logo"
+                />
+              </Link>
             </div>
           </div>
           <div className="col-8">
-            {" "}
             <h1>Its a navbar</h1>
           </div>
         </div>
