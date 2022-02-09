@@ -17,7 +17,34 @@ const Navbar = () => {
             </div>
           </div>
           <div className="col-8">
-            <h1>Its a navbar</h1>
+            <ul className="link-list">
+              <li className="link-item">
+                <Link to="/about">About</Link>
+              </li>
+              <li className="link-item">
+                <Link to="/contact">Contact</Link>
+              </li>
+              <li className="link-item">
+                <Link to="/policy">Policy</Link>
+              </li>
+              <li className="link-item">
+                <Link to="/about">About</Link>
+              </li>
+              <li className="link-item">
+                <Link to="/about">
+                  <span></span>
+                </Link>
+              </li>
+              <li className="link-item">
+                <Link to="/about">About</Link>
+              </li>
+              <li className="link-item">
+                <Link to="/about">About</Link>
+              </li>
+              <li className="link-item">
+                <Link to="/about">About</Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
