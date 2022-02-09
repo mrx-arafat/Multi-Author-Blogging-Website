@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {
+  FaFacebookSquare,
+  FaTwitterSquare,
+  FaGithubSquare,
+} from "react-icons/fa";
+import { ImLinkedin } from "react-icons/im";
 
 const Navbar = () => {
   return (
@@ -28,21 +34,37 @@ const Navbar = () => {
                 <Link to="/policy">Policy</Link>
               </li>
               <li className="link-item">
-                <Link to="/about">About</Link>
+                <Link to="/about"></Link>
               </li>
               <li className="link-item">
                 <Link to="/about">
-                  <span></span>
+                  <span>
+                    <FaFacebookSquare />
+                  </span>
                 </Link>
               </li>
               <li className="link-item">
-                <Link to="/about">About</Link>
+                <Link to="/about">
+                  <span>
+                    <FaTwitterSquare />
+                  </span>
+                </Link>
               </li>
               <li className="link-item">
-                <Link to="/about">About</Link>
+                <Link to="/about">
+                  {" "}
+                  <span>
+                    <FaGithubSquare />
+                  </span>
+                </Link>
               </li>
               <li className="link-item">
-                <Link to="/about">About</Link>
+                <Link to="/about">
+                  {" "}
+                  <span>
+                    <ImLinkedin />
+                  </span>
+                </Link>
               </li>
             </ul>
           </div>
