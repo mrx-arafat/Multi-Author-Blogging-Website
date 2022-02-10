@@ -3,4 +3,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  left: 0;
+  top: 0;
+  background-color: var(--main-bg);
+
+  box-shadow: var(--shadow-color);
+
+  .row {
+    .col-4 {
+      .image-menubar {
+      }
+    }
+  }
 }
