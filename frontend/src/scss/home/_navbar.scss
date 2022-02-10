@@ -12,6 +12,18 @@
   .row {
     .col-4 {
       .image-menubar {
+        .menu-icon {
+          display: flex;
+        }
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a.image {
+          margin-left: -8px;
+          width: 40px;
+          height: 140px;
+        }
       }
     }
   }

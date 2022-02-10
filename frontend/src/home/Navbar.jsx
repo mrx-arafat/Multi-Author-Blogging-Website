@@ -6,6 +6,7 @@ import {
   FaGithubSquare,
 } from "react-icons/fa";
 import { ImLinkedin } from "react-icons/im";
+import { BsListUl } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -20,6 +21,9 @@ const Navbar = () => {
                   alt="logo"
                 />
               </Link>
+              <label className="menu-icon" htmlFor="toggle">
+                <BsListUl />
+              </label>
             </div>
           </div>
           <div className="col-8">
