@@ -39,6 +39,15 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        grid-column-gap: 8px;
+        .social-icon {
+          display: flex;
+          grid-column-gap: 8px;
+        }
+        .link-item {
+          background-color: var(--second-bg);
+          height: 30px;
+        }
       }
     }
   }
