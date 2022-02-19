@@ -5,7 +5,6 @@ import Home from "./home/Home";
 function App() {
   return (
     <div className="App">
-      <h3>Hello Brother</h3>
       <BrowserRouter>
         <Switch>
           <Route path="/" exact>

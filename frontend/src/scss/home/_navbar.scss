@@ -10,10 +10,42 @@
   box-shadow: var(--shadow-color);
 
   .row {
+    @media only screen and (max-width: 991px) {
+      flex-direction: column;
+
+      #toggle {
+        display: none;
+      }
+      .col-4 {
+        width: 100%;
+        .image-menubar {
+          label .menu-icon {
+            display: flex !important;
+          }
+        }
+      }
+
+      #toggle:checked ~ .col-8 ul.link-list.toggle {
+        height: 150px !important;
+        transition: all 0.5s;
+      }
+
+      .col-8 {
+        width: 100%;
+        ul.link-list {
+          flex-direction: column;
+          grid-gap: 10px;
+          justify-content: flex-start !important;
+          height: 0px !important;
+          overflow: hidden;
+        }
+      }
+    }
+
     .col-4 {
       .image-menubar {
         label.menu-icon {
-          display: flex;
+          display: none;
           justify-content: center;
           align-items: center;
           font-size: 25px;
