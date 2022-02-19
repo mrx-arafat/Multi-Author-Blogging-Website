@@ -14,6 +14,7 @@ const Navbar = () => {
       <div className="container">
         <div className="row">
           <div className="col-4">
+            <input type="checkbox" name="" id="toggle" />
             <div className="image-menubar">
               <Link className="image" to="/">
                 <img
