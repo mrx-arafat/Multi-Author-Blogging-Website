@@ -10,16 +10,18 @@
   box-shadow: var(--shadow-color);
 
   .row {
+    #toggle {
+      display: none;
+    }
     @media only screen and (max-width: 991px) {
       flex-direction: column;
 
-      #toggle {
-        display: none;
-      }
       .col-4 {
         width: 100%;
+
         .image-menubar {
-          label .menu-icon {
+          label.menu-icon {
+            visibility: visible !important;
             display: flex !important;
           }
         }
@@ -45,7 +47,8 @@
     .col-4 {
       .image-menubar {
         label.menu-icon {
-          display: none;
+          visibility: hidden;
+          display: flex;
           justify-content: center;
           align-items: center;
           font-size: 25px;
