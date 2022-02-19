@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
+
 :root {
   --fixed_white: #fff;
   --fixed_dark: #404040;
@@ -7,6 +8,7 @@
   --main-bg: #ffffff;
   --shadow-color: 0 0 0 0 rgba(90, 113, 208, 0.11),
     0 4px 16px 0 rgba(167, 175, 183, 0.33);
+  --text-color: #4b4d50;
 }
 * {
   padding: 0;

@@ -37,39 +37,38 @@ const Navbar = () => {
               <li className="link-item">
                 <Link to="/policy">Policy</Link>
               </li>
-              <li className="link-item">
-                <Link to="/about"></Link>
-              </li>
-              <li className="link-item">
-                <Link to="/about">
-                  <span>
-                    <FaFacebookSquare />
-                  </span>
-                </Link>
-              </li>
-              <li className="link-item">
-                <Link to="/about">
-                  <span>
-                    <FaTwitterSquare />
-                  </span>
-                </Link>
-              </li>
-              <li className="link-item">
-                <Link to="/about">
-                  {" "}
-                  <span>
-                    <FaGithubSquare />
-                  </span>
-                </Link>
-              </li>
-              <li className="link-item">
-                <Link to="/about">
-                  {" "}
-                  <span>
-                    <ImLinkedin />
-                  </span>
-                </Link>
-              </li>
+              <div className="social-icon">
+                <li className="link-item">
+                  <Link to="/about">
+                    <span>
+                      <FaFacebookSquare />
+                    </span>
+                  </Link>
+                </li>
+                <li className="link-item">
+                  <Link to="/about">
+                    <span>
+                      <FaTwitterSquare />
+                    </span>
+                  </Link>
+                </li>
+                <li className="link-item">
+                  <Link to="/about">
+                    {" "}
+                    <span>
+                      <FaGithubSquare />
+                    </span>
+                  </Link>
+                </li>
+                <li className="link-item">
+                  <Link to="/about">
+                    {" "}
+                    <span>
+                      <ImLinkedin />
+                    </span>
+                  </Link>
+                </li>
+              </div>
             </ul>
           </div>
         </div>

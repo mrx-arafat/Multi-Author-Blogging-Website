@@ -33,20 +33,43 @@
     }
     .col-8 {
       ul.link-list {
-        background-color: aqua;
         height: 75px;
         transition: all 0.5s;
         display: flex;
         justify-content: flex-end;
         align-items: center;
+
         grid-column-gap: 8px;
+
+        .link-item {
+          font-size: 16px;
+          font-weight: 650;
+          color: var(--text-color);
+        }
         .social-icon {
           display: flex;
           grid-column-gap: 8px;
-        }
-        .link-item {
-          background-color: var(--second-bg);
-          height: 30px;
+
+          .link-item {
+            background-color: var(--second-bg);
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+              font-size: 15px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
         }
       }
     }
